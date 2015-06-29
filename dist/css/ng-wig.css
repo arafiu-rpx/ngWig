@@ -55,6 +55,7 @@
   vertical-align: top;
 
   border-right: 1px solid #DEDEDE;
+  border-bottom: 1px solid #E5E8E7;
 }
 
 .nw-toolbar label {
@@ -128,6 +129,11 @@
  *    &--{button type}
  *
  */
+ 
+ button.nw-button:active {
+  color: grey;
+}
+
 .nw-button {
   -webkit-appearance: none;
   -moz-appearance:    none;
@@ -206,3 +212,14 @@
 
 .nw-select:focus { outline: none; }
 
+.huge {
+  font-size: 1.3em;
+}
+
+.medium {
+  font-size: 1em;
+}
+
+.small {
+  font-size: 0.8em;
+}
